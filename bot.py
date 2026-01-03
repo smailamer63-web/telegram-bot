@@ -15,7 +15,7 @@ def start(message):
     create_user(user)
     token = generate_token(user["telegram_id"])
 
-    miniapp_url = f"https://smailamer63-web.github.io/telegram-miniapp/?token={token}"
+    miniapp_url = f"https://smailamer63-web.github.io/telegram-miniapp2/?token={token}"
 
     bot.send_message(
         message.chat.id,
