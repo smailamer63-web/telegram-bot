@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/me")
 def me():
-    token = request.args.get("token")
+    token = request.args.get("8382890875:AAHCA9vHKtwlpRHq45mNVfQ3XATI5m-2lLg")
     data = verify_token(token)
 
     user = users.find_one(
